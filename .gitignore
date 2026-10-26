@@ -1,0 +1,11 @@
+node_modules
+dist
+.env*
+# The template carries names and comments only, never values — it has to be tracked
+# or a fresh clone has no way to know what the server needs.
+!.env.example
+*.log
+.DS_Store
+
+# One-off maintenance scripts stay local — they are run by hand, never by the server.
+src/scripts
